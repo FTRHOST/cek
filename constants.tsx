@@ -1,0 +1,76 @@
+import { 
+  Sun, 
+  Heart, 
+  Dumbbell, 
+  Apple, 
+  BookOpen, 
+  Users, 
+  MoonStar 
+} from 'lucide-react';
+import { Habit } from './types';
+
+export const HABITS: Habit[] = [
+  {
+    id: 1,
+    title: "Bangun Pagi",
+    description: "Memulai hari dengan semangat dan energi positif.",
+    icon: Sun,
+    color: "bg-yellow-400",
+    accentColor: "text-yellow-600",
+    gradient: "from-yellow-400 to-orange-500",
+  },
+  {
+    id: 2,
+    title: "Taat Beribadah",
+    description: "Menjalankan kewajiban agama dengan hati yang tulus.",
+    icon: Heart,
+    color: "bg-emerald-400",
+    accentColor: "text-emerald-700",
+    gradient: "from-emerald-400 to-teal-600",
+  },
+  {
+    id: 3,
+    title: "Rajin Olahraga",
+    description: "Menjaga tubuh tetap bugar, kuat, dan sehat.",
+    icon: Dumbbell,
+    color: "bg-orange-500",
+    accentColor: "text-orange-700",
+    gradient: "from-orange-400 to-red-500",
+  },
+  {
+    id: 4,
+    title: "Makan Sehat & Bergizi",
+    description: "Mengonsumsi makanan seimbang untuk pertumbuhan.",
+    icon: Apple,
+    color: "bg-green-500",
+    accentColor: "text-green-700",
+    gradient: "from-lime-400 to-green-600",
+  },
+  {
+    id: 5,
+    title: "Gemar Belajar",
+    description: "Selalu ingin tahu dan rajin menuntut ilmu.",
+    icon: BookOpen,
+    color: "bg-blue-500",
+    accentColor: "text-blue-700",
+    gradient: "from-cyan-400 to-blue-600",
+  },
+  {
+    id: 6,
+    title: "Bermasyarakat",
+    description: "Bersosialisasi, tolong menolong, dan peduli sesama.",
+    icon: Users,
+    color: "bg-indigo-500",
+    accentColor: "text-indigo-700",
+    gradient: "from-indigo-400 to-purple-600",
+  },
+  {
+    id: 7,
+    title: "Tidur Cepat",
+    description: "Istirahat cukup untuk memulihkan energi esok hari.",
+    icon: MoonStar,
+    color: "bg-violet-600",
+    accentColor: "text-violet-900",
+    gradient: "from-violet-500 to-fuchsia-700",
+  },
+];
